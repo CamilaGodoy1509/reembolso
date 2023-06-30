@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Testar modulo de reembolso</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Teste Reembolso</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 17:50:02</sys_created_on>
+        <sys_id>19f2eab4973321106d7e72d6f053af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teste Reembolso</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_update_name>sys_atf_test_19f2eab4973321106d7e72d6f053af30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 17:50:02</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=19f2eab4973321106d7e72d6f053af30"/>
+</record_update>

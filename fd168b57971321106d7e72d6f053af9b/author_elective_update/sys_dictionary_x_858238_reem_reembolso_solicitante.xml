@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="solicitante" table="x_858238_reem_reembolso">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Solicitante</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>solicitante</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_858238_reem_reembolso</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 18:07:43</sys_created_on>
+        <sys_id>a2fdc873975321106d7e72d6f053af03</sys_id>
+        <sys_name>Solicitante</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_update_name>sys_dictionary_x_858238_reem_reembolso_solicitante</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 18:07:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</application>
+        <file_path/>
+        <instance_id>e221a906dba1fb0449eac597059619a0</instance_id>
+        <instance_name>dev86258</instance_name>
+        <name>sys_dictionary_x_858238_reem_reembolso_solicitante</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="solicitante" table="x_858238_reem_reembolso"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Solicitante</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>solicitante</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_858238_reem_reembolso</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user">sys_user</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-14 18:07:43</sys_created_on><sys_id>a2fdc873975321106d7e72d6f053af03</sys_id><sys_name>Solicitante</sys_name><sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package><sys_policy/><sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope><sys_update_name>sys_dictionary_x_858238_reem_reembolso_solicitante</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-14 18:07:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1763717294</payload_hash>
+        <record_name>Reembolso.Solicitante</record_name>
+        <reverted_from/>
+        <source>7d168b57971321106d7e72d6f053af9d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 18:07:43</sys_created_on>
+        <sys_id>e6fdc873975321106d7e72d6f053af41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188bb17915f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 18:07:43</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>22fdc8736a532110b408256fb45e5541</update_guid>
+        <update_guid_history>22fdc8736a532110b408256fb45e5541:1763717294,e6fdc873065321102761182830f02636:1108239763</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 18:08:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0b903e14ec454ff0b43dc48fc6b89a44</sys_id>
+        <sys_metadata>a2fdc873975321106d7e72d6f053af03</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitante</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_parent display_value="Reembolso">e8f204b7971321106d7e72d6f053afe5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_scope_delete display_value="">1910bc1a3d3a4c88916b378b976cadc9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_858238_reem_reembolso_solicitante</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_858238_reem_reembolso_solicitante">e6fdc873975321106d7e72d6f053af41</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 18:08:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

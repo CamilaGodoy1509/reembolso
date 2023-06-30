@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="02828ade976721106d7e72d6f053afe3" label="empresa" max_length="40" name="x_858238_reem_empresa" type="collection">
+        <element default="true" label="Ativo" max_length="40" name="ativo" type="boolean"/>
+        <element label="Bairro" max_length="40" name="bairro" type="string"/>
+        <element label="CEP" max_length="40" name="cep" type="string"/>
+        <element label="Cidade" max_length="40" name="cidade" type="string"/>
+        <element label="Cód. Empresa" max_length="40" name="cod_empresa" type="string"/>
+        <element label="Endereço" max_length="120" name="endereco" type="string"/>
+        <element label="Estado" max_length="40" name="estado" type="string"/>
+        <element display="true" label="Nome Empresa" max_length="120" name="nome_empresa" type="string"/>
+    </element>
+</database>

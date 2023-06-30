@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e8f204b7971321106d7e72d6f053afe5" extends="task" label="Reembolso" max_length="40" name="x_858238_reem_reembolso" type="collection">
+        <element label="Cód. Empresa" max_length="40" name="cod_empresa" read_only="true" type="string"/>
+        <element label="Cód. Filial" max_length="40" name="cod_filial" read_only="true" type="string"/>
+        <element label="CPF" max_length="40" name="cpf" type="string"/>
+        <element label="Departamento" max_length="32" name="departamento" reference="cmn_department" type="reference"/>
+        <element label="Empresa" max_length="32" name="empresa" reference="x_858238_reem_empresa" type="reference"/>
+        <element choice="3" default="sim" label="Feito todos os lançamentos de Despesas?" max_length="40" name="feito_todos_os_lancamentos_de_despesas" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="n_o"/>
+            </choice>
+        </element>
+        <element dependent="company" dependent_on_field="company" label="Filial" max_length="32" name="filial" reference="x_858238_reem_branch" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Reembolso" max_length="40" name="reembolso" type="string"/>
+        <element choice="3" default="nova_solicita_o" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Nova Solicitação" sequence="0" value="nova_solicita_o"/>
+                <element inactive_on_update="false" label="Lançamento Despesas" sequence="1" value="lancamento_despesas"/>
+                <element inactive_on_update="false" label="Aprovação Financeiro" sequence="2" value="aprova_o_financeiro"/>
+                <element inactive_on_update="false" label="Aprovação Gestor" sequence="3" value="aprova_o_gestor"/>
+                <element inactive_on_update="false" label="Aguardando Pagamento" sequence="4" value="aguardando_pagamento"/>
+                <element inactive_on_update="false" label="Reprovado" sequence="5" value="reprovado"/>
+                <element inactive_on_update="false" label="Finalizado" sequence="6" value="finalizado"/>
+            </choice>
+        </element>
+        <element label="Valor Total" max_length="38" name="valor_total" read_only="true" type="string"/>
+    </element>
+</database>

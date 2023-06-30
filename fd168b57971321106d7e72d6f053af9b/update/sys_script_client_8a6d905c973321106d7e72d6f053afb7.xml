@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>quantidade</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Change quantidade</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	if(!g_form.getValue('valor_unitario')){
+		g_form.addInfoMessage("Preencha o valor Unitario")
+		return
+	}
+	var currency = g_form.getValue('valor_unitario').split(';')[1].replace('.','').replace(',','.');
+	var total = Number(g_form.getValue('quantidade')) * Number(currency);
+	
+	g_form.setValue('valor_total',total)
+	
+	//Exemplo de como setar aviso 
+	//g_form.addInfoMessage('Funcineu  '+total);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 18:50:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a6d905c973321106d7e72d6f053afb7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Change quantidade</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_update_name>sys_script_client_8a6d905c973321106d7e72d6f053afb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:03:31</sys_updated_on>
+        <table>x_858238_reem_despesas_reem</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

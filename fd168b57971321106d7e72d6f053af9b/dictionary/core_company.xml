@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,global_search_config_handler=CompanySearchConfig" create_roles="user_admin" db_object_id="10d8c803243021108c8bc6863d3fad56" label="Company" max_length="40" name="core_company" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Cód. Empresa" max_length="120" name="x_858238_reem_u_cod_empresa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome Empresa" max_length="120" name="x_858238_reem_u_nome_empresa" type="string"/>
+    </element>
+</database>

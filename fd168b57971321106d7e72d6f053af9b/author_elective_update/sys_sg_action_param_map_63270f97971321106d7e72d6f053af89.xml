@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="Edit Button (centro custo)">27270f97971321106d7e72d6f053af86</button>
+        <item_parameter display_value="centro custo descricao_centro_custo">67270f97971321106d7e72d6f053af85</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 18:19:55</sys_created_on>
+        <sys_id>63270f97971321106d7e72d6f053af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>67270f97971321106d7e72d6f053af85</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_63270f97971321106d7e72d6f053af89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 18:19:55</sys_updated_on>
+        <ui_parameter display_value="Descricao Centro Custo">ab270f97971321106d7e72d6f053af87</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</application>
+        <file_path/>
+        <instance_id>e221a906dba1fb0449eac597059619a0</instance_id>
+        <instance_name>dev86258</instance_name>
+        <name>sys_sg_action_param_map_63270f97971321106d7e72d6f053af89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="Edit Button (centro custo)">27270f97971321106d7e72d6f053af86</button><item_parameter display_value="centro custo descricao_centro_custo">67270f97971321106d7e72d6f053af85</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-13 18:19:55</sys_created_on><sys_id>63270f97971321106d7e72d6f053af89</sys_id><sys_mod_count>0</sys_mod_count><sys_name>67270f97971321106d7e72d6f053af85</sys_name><sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package><sys_policy/><sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope><sys_update_name>sys_sg_action_param_map_63270f97971321106d7e72d6f053af89</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-13 18:19:55</sys_updated_on><ui_parameter display_value="Descricao Centro Custo">ab270f97971321106d7e72d6f053af87</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>-1251960503</payload_hash>
+        <record_name>67270f97971321106d7e72d6f053af85</record_name>
+        <reverted_from/>
+        <source>7d168b57971321106d7e72d6f053af9d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 18:20:01</sys_created_on>
+        <sys_id>41378f97971321106d7e72d6f053afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b5fc780b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 18:20:01</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>c9378f9760132110a7aed6f0c03fd4d7</update_guid>
+        <update_guid_history>c9378f9760132110a7aed6f0c03fd4d7:-1251960503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-16 19:00:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>0bbe8c79e8894136beebd8a4c53eba99</sys_id>
+        <sys_metadata>63270f97971321106d7e72d6f053af89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>67270f97971321106d7e72d6f053af85</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_scope_delete display_value="">1910bc1a3d3a4c88916b378b976cadc9</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_63270f97971321106d7e72d6f053af89</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_63270f97971321106d7e72d6f053af89">41378f97971321106d7e72d6f053afd8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-16 19:00:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

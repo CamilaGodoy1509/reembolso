@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="DELETE">
+        <condition_order/>
+        <datasource_table>x_858238_reem_centro_custo</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="centro custo Form Screen">ab270f97971321106d7e72d6f053af6b</embedded_screen>
+        <item_view/>
+        <name>centro custo master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 18:19:55</sys_created_on>
+        <sys_id>23270f97971321106d7e72d6f053af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>centro custo master_item</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_update_name>sys_sg_master_item_23270f97971321106d7e72d6f053af6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 18:19:55</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config/>
+    </sys_sg_master_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</application>
+        <file_path/>
+        <instance_id>e221a906dba1fb0449eac597059619a0</instance_id>
+        <instance_name>dev86258</instance_name>
+        <name>sys_sg_master_item_23270f97971321106d7e72d6f053af6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item"><sys_sg_master_item action="INSERT_OR_UPDATE"><condition_order/><datasource_table>x_858238_reem_centro_custo</datasource_table><datasource_table_condition/><embedded_screen display_value="centro custo Form Screen">ab270f97971321106d7e72d6f053af6b</embedded_screen><item_view/><name>centro custo master_item</name><sys_class_name>sys_sg_master_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-13 18:19:55</sys_created_on><sys_id>23270f97971321106d7e72d6f053af6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>centro custo master_item</sys_name><sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package><sys_policy/><sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope><sys_update_name>sys_sg_master_item_23270f97971321106d7e72d6f053af6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-13 18:19:55</sys_updated_on><use_view_config>true</use_view_config><view_config/></sys_sg_master_item></record_update>]]></payload>
+        <payload_hash>1617927456</payload_hash>
+        <record_name>centro custo master_item</record_name>
+        <reverted_from/>
+        <source>7d168b57971321106d7e72d6f053af9d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-16 19:00:27</sys_created_on>
+        <sys_id>9e3de258972321106d7e72d6f053afd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188c5948e1e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-16 19:00:27</sys_updated_on>
+        <type>List item config</type>
+        <update_guid>9d378f97141321105b77eff5c9e764ff</update_guid>
+        <update_guid_history>9d378f97141321105b77eff5c9e764ff:908262637,9d378f97141321105b77eff5c9e764ff:908262637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-16 19:00:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_master_item">sys_sg_master_item</sys_db_object>
+        <sys_id>4daabaf9bdd84fe2be455a5eb97a6224</sys_id>
+        <sys_metadata>23270f97971321106d7e72d6f053af6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>centro custo master_item</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_scope_delete display_value="">1910bc1a3d3a4c88916b378b976cadc9</sys_scope_delete>
+        <sys_update_name>sys_sg_master_item_23270f97971321106d7e72d6f053af6e</sys_update_name>
+        <sys_update_version display_value="sys_sg_master_item_23270f97971321106d7e72d6f053af6e">9e3de258972321106d7e72d6f053afd5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-16 19:00:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

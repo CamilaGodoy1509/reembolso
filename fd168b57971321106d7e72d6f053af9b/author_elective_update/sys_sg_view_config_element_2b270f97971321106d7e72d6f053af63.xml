@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>cod_centro_custo-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 18:19:55</sys_created_on>
+        <sys_id>2b270f97971321106d7e72d6f053af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cod_centro_custo-FieldValue</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_2b270f97971321106d7e72d6f053af63</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 18:19:55</sys_updated_on>
+        <view_config display_value="centro custo Detail Screen View Config">ef270f97971321106d7e72d6f053af62</view_config>
+        <view_template_slot display_value="text_01">177205bc41e35010f877183fc9b8bedd</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</application>
+        <file_path/>
+        <instance_id>e221a906dba1fb0449eac597059619a0</instance_id>
+        <instance_name>dev86258</instance_name>
+        <name>sys_sg_view_config_element_2b270f97971321106d7e72d6f053af63</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>cod_centro_custo-FieldValue</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-13 18:19:55</sys_created_on><sys_id>2b270f97971321106d7e72d6f053af63</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cod_centro_custo-FieldValue</sys_name><sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package><sys_policy/><sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope><sys_update_name>sys_sg_view_config_element_2b270f97971321106d7e72d6f053af63</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-13 18:19:55</sys_updated_on><view_config display_value="centro custo Detail Screen View Config">ef270f97971321106d7e72d6f053af62</view_config><view_template_slot display_value="text_01">177205bc41e35010f877183fc9b8bedd</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>-196501237</payload_hash>
+        <record_name>cod_centro_custo-FieldValue</record_name>
+        <reverted_from/>
+        <source>7d168b57971321106d7e72d6f053af9d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 18:19:55</sys_created_on>
+        <sys_id>ef270f97971321106d7e72d6f053af64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b5fc5f300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 18:19:55</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>2b270f97e9132110b04a1c0660a8f964</update_guid>
+        <update_guid_history>2b270f97e9132110b04a1c0660a8f964:-196501237</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-16 19:00:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>ab8381903c3d410981b987f7a36a5621</sys_id>
+        <sys_metadata>2b270f97971321106d7e72d6f053af63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cod_centro_custo-FieldValue</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_scope_delete display_value="">1910bc1a3d3a4c88916b378b976cadc9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_2b270f97971321106d7e72d6f053af63</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_2b270f97971321106d7e72d6f053af63">ef270f97971321106d7e72d6f053af64</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-16 19:00:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

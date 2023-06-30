@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="260ce996972721106d7e72d6f053af5a" label="branch" max_length="40" name="x_858238_reem_branch" type="collection">
+        <element label="Bairro" max_length="40" name="bairro" type="string"/>
+        <element label="CEP" max_length="40" name="cep" type="string"/>
+        <element label="Cidade" max_length="40" name="cidade" type="string"/>
+        <element label="Cód. Filial" max_length="40" name="cod_filial" type="string"/>
+        <element label="Endereço" max_length="40" name="endereco" type="string"/>
+        <element label="Estado" max_length="40" name="estado" type="string"/>
+        <element display="true" label="Nome Filial" max_length="40" name="nome_filial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

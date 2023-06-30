@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>Delete (produtos)</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 18:19:55</sys_created_on>
+        <sys_id>2b270f97971321106d7e72d6f053af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (produtos)</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_2b270f97971321106d7e72d6f053af48</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 18:19:55</sys_updated_on>
+        <table>x_858238_reem_produtos</table>
+        <template/>
+        <type>delete</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=2b270f97971321106d7e72d6f053af48"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</application>
+        <file_path/>
+        <instance_id>e221a906dba1fb0449eac597059619a0</instance_id>
+        <instance_name>dev86258</instance_name>
+        <name>sys_sg_write_back_action_item_2b270f97971321106d7e72d6f053af48</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>Delete (produtos)</name><parameter_screen/><query_condition/><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-13 18:19:55</sys_created_on><sys_id>2b270f97971321106d7e72d6f053af48</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete (produtos)</sys_name><sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package><sys_policy/><sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope><sys_update_name>sys_sg_write_back_action_item_2b270f97971321106d7e72d6f053af48</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-13 18:19:55</sys_updated_on><table>x_858238_reem_produtos</table><template/><type>delete</type><use_current_record_as_condition>true</use_current_record_as_condition><use_fields_for_ref_lookup>false</use_fields_for_ref_lookup></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=2b270f97971321106d7e72d6f053af48"/></record_update>]]></payload>
+        <payload_hash>1472408655</payload_hash>
+        <record_name>Delete (produtos)</record_name>
+        <reverted_from/>
+        <source>7d168b57971321106d7e72d6f053af9d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 18:20:00</sys_created_on>
+        <sys_id>70378f97971321106d7e72d6f053af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b5fc739e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 18:20:00</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>f8378f972d132110af60b2de384f7e36</update_guid>
+        <update_guid_history>f8378f972d132110af60b2de384f7e36:1472408655</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 17:53:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>42bb99767dac47839d7d20fab374e961</sys_id>
+        <sys_metadata>2b270f97971321106d7e72d6f053af48</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (produtos)</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_scope_delete display_value="">1910bc1a3d3a4c88916b378b976cadc9</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_2b270f97971321106d7e72d6f053af48</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_2b270f97971321106d7e72d6f053af48">70378f97971321106d7e72d6f053af37</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 17:53:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

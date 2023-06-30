@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_858238_reem_despesas_reem" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_858238_reem_despesas_reem" element="NULL" name="x_858238_reem_despesas_reem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29ffa0dc977321106d7e72d6f053afed</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-28 20:08:52</sys_created_on>
+            <sys_id>a1ffa0dc977321106d7e72d6f053afee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-28 20:08:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>despesa.name</element>
+            <list_id display_value="x_858238_reem_despesas_reem" element="NULL" name="x_858238_reem_despesas_reem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29ffa0dc977321106d7e72d6f053afed</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-28 20:08:52</sys_created_on>
+            <sys_id>25ffa0dc977321106d7e72d6f053afee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-28 20:08:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>quantidade</element>
+            <list_id display_value="x_858238_reem_despesas_reem" element="NULL" name="x_858238_reem_despesas_reem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29ffa0dc977321106d7e72d6f053afed</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-28 20:08:52</sys_created_on>
+            <sys_id>a5ffa0dc977321106d7e72d6f053afee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-28 20:08:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>valor_unitario</element>
+            <list_id display_value="x_858238_reem_despesas_reem" element="NULL" name="x_858238_reem_despesas_reem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29ffa0dc977321106d7e72d6f053afed</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-28 20:08:52</sys_created_on>
+            <sys_id>29ffa0dc977321106d7e72d6f053afee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-28 20:08:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>valor_total</element>
+            <list_id display_value="x_858238_reem_despesas_reem" element="NULL" name="x_858238_reem_despesas_reem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29ffa0dc977321106d7e72d6f053afed</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-28 20:08:52</sys_created_on>
+            <sys_id>a9ffa0dc977321106d7e72d6f053afee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-28 20:08:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_glide_date_1</element>
+            <list_id display_value="x_858238_reem_despesas_reem" element="NULL" name="x_858238_reem_despesas_reem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29ffa0dc977321106d7e72d6f053afed</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-28 20:08:52</sys_created_on>
+            <sys_id>2dffa0dc977321106d7e72d6f053afee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-28 20:08:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_858238_reem_despesas_reem</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-28 20:08:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29ffa0dc977321106d7e72d6f053afed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_858238_reem_despesas_reem</sys_name>
+            <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+            <sys_update_name>sys_ui_list_x_858238_reem_despesas_reem_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-28 20:08:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

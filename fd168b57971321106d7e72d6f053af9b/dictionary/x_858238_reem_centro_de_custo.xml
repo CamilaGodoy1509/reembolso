@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a5af6ed8972321106d7e72d6f053af2a" label="Centro de Custo" max_length="40" name="x_858238_reem_centro_de_custo" type="collection">
+        <element label="Centro de Custo" max_length="32" name="centro_de_custo" reference="cmn_cost_center" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="% Rateio" max_length="40" name="rateio" type="string"/>
+        <element label="Sol. Reembolso" max_length="32" name="solicitacao" read_only="true" reference="x_858238_reem_reembolso" type="reference"/>
+        <index name="index">
+            <element name="solicitacao"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>cpf</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ValidaCPF</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   var CPF = g_form.getValue('cpf')
+   
+   g_form.addInfoMessage(CPF);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 20:19:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ccd1381097b321106d7e72d6f053af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ValidaCPF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_update_name>sys_script_client_ccd1381097b321106d7e72d6f053af78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:19:37</sys_updated_on>
+        <table>x_858238_reem_reembolso</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</application>
+        <file_path/>
+        <instance_id>e221a906dba1fb0449eac597059619a0</instance_id>
+        <instance_name>dev86258</instance_name>
+        <name>sys_script_client_ccd1381097b321106d7e72d6f053af78</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;cpf&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ValidaCPF&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   var CPF = g_form.getValue('cpf')
+   
+   g_form.addInfoMessage(CPF);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-28 20:19:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ccd1381097b321106d7e72d6f053af78&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;ValidaCPF&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Reembolso" source="x_858238_reem"&gt;fd168b57971321106d7e72d6f053af9b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reembolso"&gt;fd168b57971321106d7e72d6f053af9b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ccd1381097b321106d7e72d6f053af78&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-28 20:19:37&lt;/sys_updated_on&gt;&lt;table&gt;x_858238_reem_reembolso&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>624448130</payload_hash>
+        <record_name>ValidaCPF</record_name>
+        <reverted_from/>
+        <source>7d168b57971321106d7e72d6f053af9d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 20:19:37</sys_created_on>
+        <sys_id>8b62bcdc977321106d7e72d6f053afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18903a957db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:19:37</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c362bcdcf7732110949a366a4bbd60e8</update_guid>
+        <update_guid_history>c362bcdcf7732110949a366a4bbd60e8:624448130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 20:20:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5596bd51dea944cca80f77c27dc34d24</sys_id>
+        <sys_metadata>ccd1381097b321106d7e72d6f053af78</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ValidaCPF</sys_name>
+        <sys_package display_value="Reembolso" source="x_858238_reem">fd168b57971321106d7e72d6f053af9b</sys_package>
+        <sys_parent display_value="Reembolso">e8f204b7971321106d7e72d6f053afe5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">fd168b57971321106d7e72d6f053af9b</sys_scope>
+        <sys_scope_delete display_value="">1910bc1a3d3a4c88916b378b976cadc9</sys_scope_delete>
+        <sys_update_name>sys_script_client_ccd1381097b321106d7e72d6f053af78</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ccd1381097b321106d7e72d6f053af78">8b62bcdc977321106d7e72d6f053afe8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:20:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
